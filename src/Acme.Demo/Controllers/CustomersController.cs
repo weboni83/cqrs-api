@@ -10,11 +10,11 @@ namespace Acme.Demo.Controllers
     public class CustomersController : ControllerBase
     {
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<CustomersController> _logger;
         private readonly ICustomersRepository _customersRepository;
         private readonly IMapper _mapper;
 
-        public CustomersController(ILogger<WeatherForecastController> logger
+        public CustomersController(ILogger<CustomersController> logger
             ,ICustomersRepository customersRepository
             ,IMapper mapper)
         {
